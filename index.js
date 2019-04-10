@@ -1,17 +1,14 @@
 // @flow
-import React, {Component} from 'react'
+class A<Props, State = any> {
 
-type Props = {|
-  a: number,
-|}
+}
 
-class Foo extends Component<Props> {
-  test() {
+class B extends A<any> {
+  foo() {
     return 3
   }
 
-  render() {
-    const props = this.test()
-    return null
+  bar() {
+    return this.foo()
   }
 }
