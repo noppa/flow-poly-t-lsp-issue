@@ -1,6 +1,6 @@
 SSCCE for a Flow issue with optional type arguments for generic classes.
 
-# How to test:
+## How to test:
 
 1. Install dependencies with `yarn`
 
