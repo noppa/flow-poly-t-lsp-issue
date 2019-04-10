@@ -1,0 +1,5 @@
+{
+    "flow.useBundledFlow": false,
+    "flow.useLSP": true,
+    "flow.useNPMPackagedFlow": true
+}
